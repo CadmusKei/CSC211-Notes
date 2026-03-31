@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "040eea9df0600f14",
+    "type": "split",
+    "children": [
+      {
+        "id": "350dcc785a98682d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d8045b35533a815",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Theory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Theory"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "57a88d77f4751830",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4e12a1c53327761",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e5edfe5c337ea3b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "efd83090150b5c9f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4d956a757a6a2ef4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "82674fd93109dfeb",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd902267885b3371",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd20d06081f3f746",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CT1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CT1"
+            }
+          },
+          {
+            "id": "e54761d99bea38d4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CT1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CT1"
+            }
+          },
+          {
+            "id": "b0f5057c88af723b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b73fb4939468f4f5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2f5704cdd65e1d58",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CT1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CT1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "github-sync:Sync with Remote": false
+    }
+  },
+  "active": "6e5edfe5c337ea3b",
+  "lastOpenFiles": [
+    "Computer Science/Iteration and Recursion.md",
+    "Computer Science/Open-Closed Hashing.pdf",
+    "Computer Science/Hashing.md",
+    "Computer Science/Theory.md",
+    "Computer Science/Hashing.pdf",
+    "Hashing Intro.pdf",
+    "Computer Science/Practical.md",
+    "Computer Science/History.md",
+    "Computer Science/CSC211.md",
+    "Computer Science/Git CLI.md",
+    "Computer Science/Big O Notation.md",
+    "Class Test 1.md",
+    "Test 1.md",
+    "Untitled.canvas",
+    "2026-03-31.md",
+    "Welcome.md",
+    "Computer Science"
+  ]
+}
