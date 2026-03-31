@@ -78,6 +78,7 @@ O(n1) describes a highly inefficient algorithm as its rate in steps increases dr
 
 ---
 
-![image.png](attachment:c5dd07a0-e2d3-4132-9bb3-6a9dbf0f84e3:image.png)
+
+
 
 ---
