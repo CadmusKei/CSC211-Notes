@@ -6,7 +6,7 @@ We can describe Big O as:
 - Describes the performance of an algorithm as the amount of data increases.
 - Machine independent (# steps to completetion).
 - Ignore smaller operations [eg: O(n + 1) → O(n) ].
-
+a
 ### Examples of Big O Notation:
 
 - O(1)
