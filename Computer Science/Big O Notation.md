@@ -82,6 +82,147 @@ O(n1) describes a highly inefficient algorithm as its rate in steps increases dr
 
 - $a^{log(b)}=b^{log(a)}$
 
+# Big-O Examples
 
+## Example 1: Linear Loop
+```java
+void example1(int[] arr) {
+    for (int i = 0; i < arr.length; i++) {
+        System.out.println(arr[i]);
+    }
+}
+```
+**T(n) = n** | **O(n)**
 
+Single loop over n elements → linear.
+
+---
+
+## Example 2: Loop Over Half Array
+```java
+void example2(int[] arr) {
+    for (int i = 0; i < arr.length/2; i++) {
+        System.out.println(arr[i]);
+    }
+}
+```
+**T(n) = n/2** | **O(n)**
+
+Constants ignored in Big-O → still linear.
+
+---
+
+## Example 3: Logarithmic Loop
+```java
+void example3(int n) {
+    for (int i = n; i > 0; i /= 2) {
+        System.out.println(i);
+    }
+}
+```
+**T(n) = log₂(n)** | **O(log n)**
+
+Each iteration halves input → logarithmic iterations.
+
+---
+
+## Example 4: Nested Loop
+```java
+void example4(int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            System.out.println(i+j);
+        }
+    }
+}
+```
+**T(n) = n²** | **O(n²)**
+
+Two nested loops → multiply iterations → quadratic.
+
+---
+
+## Example 5: Single Loop
+```java
+void example5(int n) {
+    for (int i = 0; i < n; i++) {
+        System.out.println(i);
+    }
+}
+```
+**T(n) = n** | **O(n)**
+
+Straightforward linear.
+
+---
+
+## Example 6: Multiple Independent Loops
+```java
+void example6(int n) {
+    for (int i = 0; i < n; i++) {}
+    for (int j = 0; j < n; j++) {}
+}
+```
+**T(n) = 2n** | **O(n)**
+
+Big-O drops constants → linear.
+
+---
+
+## Example 7: Triangular Loop
+```java
+void example7(int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < i; j++) {
+            System.out.println(i+j);
+        }
+    }
+}
+```
+**T(n) = 1 + 2 + ... + (n-1) = n(n-1)/2** | **O(n²)**
+
+Triangular sum → quadratic.
+
+---
+
+## Example 8: Recursive — Two Calls on n/2
+```java
+void example8(int n) {
+    if (n <= 1) return;
+    example8(n/2);
+    example8(n/2);
+}
+```
+**T(n) = 2T(n/2) + 1** | **O(n)**
+
+Each level doubles calls, input halves → geometric sum → linear.
+
+---
+
+## Example 9: Recursive — Two Calls on n-1
+```java
+void example9(int n) {
+    if (n <= 1) return;
+    example9(n-1);
+    example9(n-1);
+}
+```
+**T(n) = 2T(n-1) + 1** | **O(2ⁿ)**
+
+Input decreases by 1, two calls per node → exponential growth.
+
+---
+
+## Example 10: Recursive — Three Calls on n/2
+```java
+void example10(int n) {
+    if (n <= 1) return;
+    example10(n/2);
+    example10(n/2);
+    example10(n/2);
+}
+```
+**T(n) = 3T(n/2) + 1** | **O(n^log₂(3)) ≈ O(n^1.585)**
+
+ Branching factor = 3, input halves → 3^k · T(n/2^k) + geometric sum.
 ---
