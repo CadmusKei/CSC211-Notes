@@ -78,6 +78,9 @@ O(n1) describes a highly inefficient algorithm as its rate in steps increases dr
 
 ---
 
+### Tips for recursion
+
+- $a^{log(b)}=b^{log(a)}$
 
 
 
