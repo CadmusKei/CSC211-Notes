@@ -226,3 +226,5 @@ void example10(int n) {
 
  Branching factor = 3, input halves → 3^k · T(n/2^k) + geometric sum.
 ---
+
+![[Time Complexity.pdf]]
