@@ -220,7 +220,7 @@ void example10(int n) {
     example10(n/2);
     example10(n/2);
     example10(n/2);
-}
+} 
 ```
 **T(n) = 3T(n/2) + 1** | **O(n^log₂(3)) ≈ O(n^1.585)**
 
