@@ -11,14 +11,12 @@
             "id": "577e50fe5d7a4f04",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Computer Science/Big O Notation.md",
-                "mode": "source",
-                "source": false
+                "file": "Computer Science/PDFs&Images/1tut_260404_180518.pdf"
               },
-              "icon": "lucide-file",
-              "title": "Big O Notation"
+              "icon": "lucide-file-text",
+              "title": "1tut_260404_180518"
             }
           }
         ]
@@ -186,17 +184,22 @@
   },
   "active": "6e5edfe5c337ea3b",
   "lastOpenFiles": [
-    "Computer Science/PDFs&Images/Time Complexity.pdf",
+    "Computer Science/Tutorials.md",
+    "Computer Science/PDFs&Images/3solutionTutorial.pdf",
+    "Computer Science/PDFs&Images/2tut_v2_260404_185818.pdf",
+    "Computer Science/PDFs&Images/1tut_260404_180518.pdf",
+    "Computer Science/Past Paper.md",
     "Computer Science/Theory.md",
+    "Computer Science/CSC211.md",
+    "Tut1.md",
     "Computer Science/Big O Notation.md",
+    "Computer Science/PDFs&Images/Time Complexity.pdf",
     "Computer Science/History.md",
     "Computer Science/Iteration and Recursion.md",
     "Computer Science/Hashing.md",
-    "Computer Science/Past Paper.md",
     "Computer Science/Heaps.md",
     "Computer Science/Practical.md",
     "Computer Science/Git CLI.md",
-    "Computer Science/CSC211.md",
     "Computer Science/PDFs&Images/HeapsIntro.pdf",
     "Computer Science/PDFs&Images/LinkedListQuestion.jpeg",
     "Computer Science/PDFs&Images/Sumation.jpeg",
@@ -217,7 +220,6 @@
     "Test 1.md",
     "Untitled.canvas",
     "2026-03-31.md",
-    "Welcome.md",
-    "Computer Science"
+    "Welcome.md"
   ]
 }
