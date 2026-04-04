@@ -15,7 +15,7 @@
 **Tony Hoare**
 - Invented Quick Sort
 	- 1959
-
-
-
-
+	
+**John William Joseph**
+- Invented Heap
+	- 1964

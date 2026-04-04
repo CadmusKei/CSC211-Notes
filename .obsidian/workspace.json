@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "350dcc785a98682d",
+        "id": "938626b80bfa95b1",
         "type": "tabs",
         "children": [
           {
-            "id": "577e50fe5d7a4f04",
+            "id": "29216ea7cfdbeb91",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Computer Science/PDFs&Images/1tut_260404_180518.pdf"
+                "file": "Computer Science/History.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "1tut_260404_180518"
+              "icon": "lucide-file",
+              "title": "History"
             }
           }
         ]
@@ -182,18 +184,20 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "6e5edfe5c337ea3b",
+  "active": "29216ea7cfdbeb91",
   "lastOpenFiles": [
+    "Computer Science/PDFs&Images/History.jpeg",
+    "Computer Science/PDFs&Images/Time Complexity.pdf",
+    "Computer Science/PDFs&Images/1tut_260404_180518.pdf",
+    "Computer Science/PDFs&Images/Sumation.jpeg",
     "Computer Science/Tutorials.md",
     "Computer Science/PDFs&Images/3solutionTutorial.pdf",
     "Computer Science/PDFs&Images/2tut_v2_260404_185818.pdf",
-    "Computer Science/PDFs&Images/1tut_260404_180518.pdf",
     "Computer Science/Past Paper.md",
     "Computer Science/Theory.md",
     "Computer Science/CSC211.md",
     "Tut1.md",
     "Computer Science/Big O Notation.md",
-    "Computer Science/PDFs&Images/Time Complexity.pdf",
     "Computer Science/History.md",
     "Computer Science/Iteration and Recursion.md",
     "Computer Science/Hashing.md",
@@ -202,10 +206,8 @@
     "Computer Science/Git CLI.md",
     "Computer Science/PDFs&Images/HeapsIntro.pdf",
     "Computer Science/PDFs&Images/LinkedListQuestion.jpeg",
-    "Computer Science/PDFs&Images/Sumation.jpeg",
     "Computer Science/PDFs&Images/Hashing.pdf",
     "Computer Science/PDFs&Images/Open-Closed Hashing.pdf",
-    "Computer Science/PDFs&Images/History.jpeg",
     "Computer Science/PDFs&Images",
     "Open/Closed Hashing.md",
     "WhatsApp Image 2026-03-27 at 02.38.15 (3).jpeg",
